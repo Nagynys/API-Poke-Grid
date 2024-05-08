@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.all {
+    margin: 5px;
+}
+
+#poke {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 5px;
+}
+
+section { 
+    border: 1px solid black;
+    font-size: 14px;
+    height: 100%;
+    text-transform: capitalize;
+}
